@@ -1,6 +1,6 @@
 #!bash
 
-SCRIPTS=(gclone.sh cwf.sh wtfis.sh)
+SCRIPTS=(cmdir.sh gclone.sh cwf.sh wtfis.sh)
 
 for script in "${SCRIPTS[@]}"; do
   cp "${script}" "${HOME}/.oh-my-zsh/custom/${script%.sh}.zsh" || { echo "Error copying ${script}" >&2; return 1; }

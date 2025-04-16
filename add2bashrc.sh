@@ -1,6 +1,6 @@
 #!bash
 
-SCRIPTS=(cwf.sh gclone.sh wtfis.sh)
+SCRIPTS=(cmdir.sh cwf.sh gclone.sh wtfis.sh)
 
 echo "Moving scripts to ~/.custom_scripts"
 mkdir -p ~/.custom_scripts
